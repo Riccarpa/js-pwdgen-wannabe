@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+    height: 100vh;
+    padding: 50px;
+}
+
+.container {
+    border: 20px solid white;
+    outline: 5px solid blue;
+}
+
+.title h1 {
+    text-shadow: 2px 2px 4px blue;
+}
+
+.pwd-gen {
+    height: 80%;
+}
+
+.title {
+    height: 20%;
+}
+
+span {
+    display: none;
+    color: blue;
+}
+
+button:hover span {
+    display: inline-block;
+}
